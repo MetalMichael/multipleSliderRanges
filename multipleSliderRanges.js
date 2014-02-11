@@ -24,7 +24,7 @@
         },
         _trigger: function(e, i, s) {
             if(e == "slide" && !this._msrSlide(i, s)) return false;
-            this._super();
+            this._superApply( arguments );
         }
     });
 })(jQuery);
