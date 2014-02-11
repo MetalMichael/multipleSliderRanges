@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="MetalMichael" />
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    
+    <script src="../multipleSliderRanges.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $('#slider-range').multipleSliderRanges({min: 1, max: 100, ranges: 3, values: [14,26,33,65,80,90]});
+        });
+    </script>
+
+	<title>Multiple Slider Ranges</title>
+</head>
+
+<body>
+
+    <h1>Multiple Slider Ranges</h1>
+    <div style="width: 60%;" id="slider-range"></div>
+
+</body>
+</html>
